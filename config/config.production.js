@@ -3,7 +3,7 @@ var config = require('./config.global.js');
 // make any production-specific changes here
 
 config.env = 'production';
-config.hostname = 'arcane-escarpment-7767.herokuapp.com';
+config.hostname = 'toiletseek.herokuapp.com';
 config.serverPort = process.env.PORT; // heroku is particular
 
 // config.authCallbackUrl = 'https://intense-coast-5573.herokuapp.com/auth/github/callback';
@@ -13,7 +13,7 @@ config.serverPort = process.env.PORT; // heroku is particular
 
 config.cookieOptions.secure = true;
 
-config.mongo.dbUrl = 'mongodb://andrew.hogue:Hog94306-@ds063899.mongolab.com:63899/nozama';
+config.mongo.dbUrl = 'mongodb://andrew.hogue:hog94306@ds063899.mongolab.com:63899/toiletseek';
 
 // make sure we can fetch our secrets from the environment
 
